@@ -23,24 +23,23 @@ html {
 	font-size: 16px;
 }
 
+main {
+	width: 100%;
+}
+
 .text {
 	--min-font-size: 15; 
 	--max-font-size: 16; 
 	font-size: var(--interpolate);
 }
 
-.subtitle2 {
-	font-size: 32px;
+.subtitle1 {
+	font-size: 16px;
+	text-align: justify;
 }
 
-.subtitle1 {
-	--min-font-size: 20; 
-	--max-font-size: 32; 
-	font-size: var(--interpolate);
-	font-family: 'Bree Serif';
-	font-weight: 400;
-	line-height: normal;
-	letter-spacing: 0px;
+.subtitle2 {
+	font-size: 24px;
 }
 
 .sub-text-green {
@@ -79,3 +78,5 @@ html {
 .hover-dark:hover {
 	filter: brightness(0.85);
 }
+
+/* RESPONSIVE QUERIES */
