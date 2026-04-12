@@ -7,17 +7,40 @@
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/global.css" />
 	<link rel="stylesheet" href="css/portfolio.css" />
-
+	<link rel="stylesheet" href="css/navigation.css" />
 </head>
 
 <body>
 	<div class="nav">
-		<img src="assets/nav-img.png" class="nav-img input1" />
-		<p class="nav-text nav-text1">Recent Updates</p>
-		<p class="nav-text">About Me</p>
-		<p class="nav-text">Education</p>
-		<p class="nav-text">Projects</p>
-		<button class="nav-btn-contact hover-dark">Contact Me</button>
+		<div class="left-nav">
+			<img src="assets/nav-img.png" class="nav-img input1" />
+		</div>
+
+		<div class="right-nav">
+			<div class="main-menu">
+				<a class="nav-text nav-text1" href="">Recent Updates</a>
+				<a class="nav-text" href="">About Me</a>
+				<a class="nav-text" href="">Education</a>
+				<a class="nav-text" href="">Projects</a>
+				<button class="nav-btn-contact hover-dark">Contact Me</button>
+			</div>
+
+			<button class="hamburger-btn">
+				<div class="hamburger-menu">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+			</button>
+
+			<div class="dropdown-content">
+				<a href="#">Recent Updates</a>
+				<a href="#">About Me</a>
+				<a href="#">Projects</a>
+				<a href="#">Contact Me</a>
+			</div>
+		</div>
+
 	</div>
 	
 	<div class="hero">
@@ -168,6 +191,8 @@
 		<div class="contact-message">Message</div>
 		<div class="contact-undefined-bottom">Submit</div>
 	</div>
+
+	<script src="/javascript/hamburger.js"></script>
 </body>
 
 </html>
