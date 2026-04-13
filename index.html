@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/portfolio.css" />
 	<link rel="stylesheet" href="css/navigation.css" />
 	<link rel="stylesheet" href="css/hero-section.css" />
+	<link rel="stylesheet" href="css/recent-updates.css" />
 </head>
 
 <body>
@@ -20,11 +21,12 @@
 
 		<div class="right-nav">
 			<div class="main-menu">
-				<a class="nav-text nav-text1" href="">Recent Updates</a>
-				<a class="nav-text" href="">About Me</a>
-				<a class="nav-text" href="">Education</a>
-				<a class="nav-text" href="">Projects</a>
-				<button class="nav-btn-contact hover-dark">Contact Me</button>
+				<a class="nav-text nav-text1" href="#recent-updates">Recent Updates</a>
+				<a class="nav-text" href="#about-me">About Me</a>
+				<a class="nav-text" href="#projects">Projects</a>
+				<a href="#contact-me">
+					<button class="nav-btn-contact hover-dark">Contact Me</button>
+				</a>
 			</div>
 
 			<button class="hamburger-btn">
@@ -72,34 +74,57 @@
 			</div>
 		</div>
 		
-		<div id="recent-updates" class="currently-learning card-blue1">
-			<h2 class="subtitle1">
-				Recent <span class="sub-text-green">Updates</span>
-			</h2>
-			<p class="text-a">What I have been doing recently</p>
-			
-			<div class="currently-learning-row">
-				<div class="currently-learning-circle-green-left input1">
-					<img src="assets/recent-updates/currently-learning-raphael1.png" class="currently-learning-raphael1" />
-				</div>
-				
-				<div class="card">
-					<div class="card-circle input1">
-						<img src="assets/card-streamline.png" class="card-streamline" />
+		<div id="recent-updates" class="card-blue1 page">
+			<div class="recently-updates-title">
+				<h2 class="subtitle2">
+					Recent <span class="sub-text-green">Updates</span>
+				</h2>
+				<p class="text-a">What I have been doing recently</p>
+			</div>
+
+			<div class="slider">
+				<div class="slider-container">
+					<div class="updates-carousel">
+						<div class="updates-card">
+							<div class="card-title">
+								<img src="./assets/recent-updates/book-img.png" class="book-img" />
+								<p class="subtitle2">Backend Development</p>
+							</div>
+							
+							<p class="card-text">
+								From the basics of how the internet works to building Intermediate Projects that assess my understanding. I've been honing my skills lately on this field using platforms like Roadmap.sh to structure my learning.
+							</p>
+							<br>
+							<a href="https://roadmap.sh/u/muelvz?roadmapId=backend" class="nav-text1">See my progress here...</a>
+						</div>
+
+						<div class="updates-card">
+							<div class="card-title">
+								<img src="./assets/recent-updates/typescript-img.png" class="typescript-img" />
+								<p class="subtitle2">TypeScript</p>
+							</div>
+							
+							<p class="card-text">
+								I believe that picking up this language will boost my frontend development capabilities, allowing me to use React at it's full extent and also to be able to use frontend libraries like ShadCN for rapid developments in UI/UX design.
+							</p>
+							<br>
+							<a href="https://roadmap.sh/u/muelvz?roadmapId=typescript" class="nav-text1">See my progress here...</a>
+						</div>
+
+						<div class="updates-card">
+							<div class="card-title">
+								<img src="./assets/recent-updates/discrete-math-img.png" class="discrete-math-img" />
+								<p class="subtitle2">Discrete Mathematics</p>
+							</div>
+							
+							<p class="card-text">
+								Mastering languages and frameworks won't take me anywhere, if I don't have a solid grasp of what's happening behind these programming languages. I believe that learning Discrete Mathematics will accelerate my learning in the future.
+							</p>
+							<br>
+						</div>
 					</div>
-					
-					<p class="card-text">Backend Development</p>
-					<p class="card-text card-text-bottom">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar tempor dolor, quis vestibulum neque tincidun
-					</p>
-				</div>
-				
-				<div class="currently-learning-group-right">
-					<div class="currently-learning-group">
-						<div class="currently-learning-circle-green input1"></div>
-					</div>
-					
-					<img src="assets/recent-updates/currently-learning-raphael2.png" class="currently-learning-raphael2" />
+
+					<div class="dots-container" id="dots-container"></div>
 				</div>
 			</div>
 		</div>
@@ -200,6 +225,8 @@
 	</main>
 
 	<script src="/javascript/hamburger.js"></script>
+	<script src="/javascript/scroll.js"></script>
+	<script src="/javascript/animation.js"></script>
 </body>
 
 </html>

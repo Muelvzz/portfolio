@@ -85,14 +85,11 @@
 	}
 }
 
-/* ANIMATIONS */
-/* Define the animation */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-/* Apply to a class */
 .hero {
   animation: fadeIn 1s ease-in forwards;
 }
