@@ -1,8 +1,8 @@
 const menuBtn = document.querySelector('.hamburger-btn');
-const dropdown = document.querySelector('.dropdown-content');
+const moreInfoDropdown = document.querySelector('.dropdown-content');
 
 function handleClick() {
-    dropdown.classList.toggle('show')
+    moreInfoDropdown.classList.toggle('show')
 }
 
 menuBtn.addEventListener('click', handleClick);

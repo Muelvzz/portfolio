@@ -15,26 +15,6 @@ body {
 	overflow: auto;
 }
 
-.about-me {
-	max-width: 1340px;
-	gap: 30px;
-	text-align: center;
-	padding-top: 69px;
-	padding-bottom: 39px;
-}
-
-.about-me-subtitle {
-	--min-font-size: 20; --max-font-size: 32; font-size: var(--interpolate);
-}
-
-.about-me-text {
-	margin: 0 26px;
-}
-
-.about-me-subtitle-education {
-	margin-top: 124px;
-}
-
 .card-education {
 	margin-left: -1px;
 	width: 100%;
