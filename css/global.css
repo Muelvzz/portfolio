@@ -1,23 +1,3 @@
-
-:root {
-	/* color variables */
-	--component-stroke: #7cea8c;
-
-	/* responsive margins / paddings */
-	--margin-sm: 16px;
-	--margin-md: 32px;
-}
-
-* {
-	--min-screen-size: 430;
-	--max-screen-size: 1440;
-	--interpolate-diff: calc(var(--max-font-size) - var(--min-font-size));
-	--interpolate: 
-		clamp(calc(var(--min-font-size) * 1px), 
-		calc((var(--min-font-size) * 1px) + var(--interpolate-diff) * ((100vw - calc(var(--min-screen-size) * 1px)) / 
-		(var(--max-screen-size) - var(--min-screen-size)))), calc(var(--max-font-size) * 1px));
-}
-
 html {
 	height: 100%;
 	font-size: 16px;
@@ -30,18 +10,12 @@ main {
 	gap: 20px;
 }
 
-.text {
-	--min-font-size: 15; 
-	--max-font-size: 16; 
-	font-size: var(--interpolate);
-}
-
-.subtitle1 {
+.regular-text {
 	font-size: 16px;
 	text-align: justify;
 }
 
-.subtitle2 {
+.heading-text {
 	font-size: 24px;
 }
 
@@ -49,24 +23,7 @@ main {
 	color: #7cea8c;
 }
 
-.sub-text-white {
-	color: #fff;
-}
-
-.card-blue2 {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	background-color: #04090d;
-	padding: 0 24px;
-}
-
-.input1 {
-	background-color: #7cea8c;
-	border-radius: 50%;
-}
-
-.card-blue1 {
+#recent-updates, #about-me, #projects, #contact-me {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -74,17 +31,10 @@ main {
 	padding: 50px;
 }
 
-.input2 {
-	border-radius: 10px;
-}
+/* MEDIA QUERIES */
 
-.hover-dark:hover {
-	filter: brightness(0.85);
-}
-
-/* RESPONSIVE QUERIES */
 @media (max-width: 480px) {
-	.card-blue1 {
+	#recent-updates, #about-me, #projects, #contact-me {
 		padding: 20px;
 	}
 }
