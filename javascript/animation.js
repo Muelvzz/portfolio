@@ -12,7 +12,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   });
 }, observerOptions);
 
-const heroElement = document.querySelector('.page');
-if (heroElement) {
-  observer.observe(heroElement);
-}
+const pageElements = document.querySelectorAll('.page');
+pageElements.forEach(element => {
+  observer.observe(element);
+});

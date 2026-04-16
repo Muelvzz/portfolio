@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/hero-section.css" />
 	<link rel="stylesheet" href="css/recent-updates.css" />
 	<link rel="stylesheet" href="css/about-me.css" />
+	<link rel="stylesheet" href="css/projects.css" />
 </head>
 
 <body>
@@ -130,110 +131,20 @@
 			</div>
 		</div>
 		
-		<div id="about-me" class="about-me card-blue1">
+		<div id="about-me" class="about-me card-blue1 page">
 			<div class="about-me-container">
 				<div class="about-me-title">
 					<div>
 						<h2 class="subtitle2">About Me</h2>
 						<p class="sub-text-green">Who am I?</p>
 					</div>
-					<!-- <div>
-						<button class="row-btn more-info-btn">More Info</button>
-					</div> -->
 				</div>
 				<p class="subtitle1 about-me-text">
 					I’m a first-year Computer Science student on a mission to build systems that scale. While I appreciate a clean UI, my true passion lies in the backend. I love the challenge of optimizing data fetching, managing databases, and designing systems that can handle thousands of concurrent users. When I’m not in the terminal, I’m fueling my growth through educational content, reading, or catching up on the latest in cinema. I believe in continuous learning—not just in code, but in understanding how the world works.
 				</p>
 			</div>
 
-			<!-- <div class="more-info-dropdown">
-				<div class="more-info">
-					<div class="modal-card">
-						<div class="modal-title-container">
-							<button class="modal-title edu-btn" value="education">Education</button>
-							<button class="modal-title lead-btn" value="leadership">Leaderships</button>
-							<button class="modal-title cert-btn" value="certification">Certifications</button>
-							<button class="row-btn cancel-btn">Cancel</button>
-						</div>
-
-						<div class="education-container">
-							<div class="education">
-								<div class="left-container">
-									<img src="./assets/about-me/about-me2.jpg" alt="About Me 1" class="about-me-img">
-								</div>
-								<div class="right-container">
-									<div class="edu-card">
-										<h1 class="subtitle2">Bachelor of Science in Computer Science</h1>
-										<p class="subtitle1">Universidad De Dagupan</p>
-										<p class="subtitle1">2025 - 2029 <i>(expected)</i></p>
-										<br>
-										<p class="subtitle1">I am currently a first year student at UDD (Universidad  De Dagupan), joining multiple networking and job oppourtunities to foster my career growth and to meet exceptional people in the tech field.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="leadership-container">
-							<div class="leadership">
-								<div class="left-container">
-									<img src="./assets/about-me/about-me1.jpg" alt="About Me 2" class="about-me-img">
-								</div>
-								<div class="right-container">
-									<div class="lead-card">
-										<h1 class="subtitle2">Code Community</h1>
-										<div class="lead-tab">
-											<a href="https://discord.gg/d7t4b83YPz" class="subtitle1">Server Link</a>
-											<p class="subtitle1">May 2025</p>
-										</div>
-										<br>
-										<p class="subtitle1">A Discord Group that was built to nurture aspiring dev's at their early stages of their career, and to meet senior developers for advice and network oppourtunities.</p>
-									</div>
-									<div class="lead-card">
-										<h1 class="subtitle2">Learn Programming In Public</h1>
-										<div class="lead-tab">
-											<a href="https://www.linkedin.com/groups/18311018/" class="subtitle1">Server Link</a>
-											<p class="subtitle1">January 2026</p>
-										</div>
-										<br>
-										<p class="subtitle1">A LinkedIn Community Group designed to encourage developers to start posting what they have learned publicly with other developers</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="certification-container">
-							<div class="certification">
-								<div class="left-container">
-									<img src="./assets/about-me/about-me3.jpg" alt="About Me 3" class="about-me-img">
-								</div>
-								<div class="right-container">
-									<div class="cert-card">
-										<h1 class="subtitle2">Introduction to Containers</h1>
-										<div class="cert-tab">
-											<p class="subtitle1">Amazon Web Services (AWS)</p>
-											<p class="subtitle1">Issued March 2026</p>
-										</div>
-									</div>
-									<div class="cert-card">
-										<h1 class="subtitle2">Introduction to Data Science</h1>
-										<div class="cert-tab">
-											<p class="subtitle1">Cisco Networking Academy</p>
-											<p class="subtitle1">Issued January 2026</p>
-										</div>
-									</div>
-									<div class="cert-card">
-										<h1 class="subtitle2">Introduction to Modern AI</h1>
-										<div class="cert-tab">
-											<p class="subtitle1">Cisco Networking Academy</p>
-											<p class="subtitle1">Issued January 2026</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
-			<div class="skills-container">
+			<div class="skills-container page">
 				<div class="skills-track">
 					<div class="skill">
 						<img src="./assets/skills/html.png" alt="HTML" class="skill-img">
@@ -278,6 +189,10 @@
 					<div class="skill">
 						<img src="./assets/skills/redis.png" alt="Redis" class="skill-img">
 						<p>Redis</p>
+					</div>
+					<div class="skill">
+						<img src="./assets/skills/postgres.png" alt="PostgreSQL" class="skill-img">
+						<p>PostgreSQL</p>
 					</div>
 
 					<!-- DUPLICATION -->
@@ -326,65 +241,118 @@
 						<img src="./assets/skills/redis.png" alt="Redis" class="skill-img">
 						<p>Redis</p>
 					</div>
+					<div class="skill">
+						<img src="./assets/skills/postgres.png" alt="PostgreSQL" class="skill-img">
+						<p>PostgreSQL</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		
-		<div id="projects" class="projects card-blue2">
-			<h2 class="subtitle1">Projects</h2>
-			
-			<div class="row row1">
-				<button class="row-btn row-btn-about hover-dark">Project #1</button>
-				<button class="row-btn row-btn-contact hover-dark">Project #1</button>
+		<div id="projects" class="projects card-blue1 page">
+			<div class="projects-title">
+				<h2 class="subtitle2">Projects</h2>
+				<p class="sub-text-green">Showcase my skills through building.</p>
 			</div>
-			
-			<div class="projects-project">
-				<div class="card-left">
-					<p class="card-left-text-full-stack">Full-stack </p>
-					<h2 class="card-left-subtitle subtitle2">Project #1</h2>
-					<a class="card-left-link" href="http://www.my-project-1.com">www.my-project-1.com</a>
-					
-					<div class="card-left-row">
-						<button class="btn btn-vercel hover-dark">
-							<img src="assets/btn/btn-icon1.png" class="btn-icon" />
-							<p class="btn-label">Vercel</p>
-						</button>
-						
-						<button class="btn btn-render hover-dark">
-							<img src="assets/btn/btn-icon2.png" class="btn-icon" />
-							<p class="btn-label">Render</p>
-						</button>
-						
-						<button class="btn btn-fast-api hover-dark">
-							<img src="assets/btn/btn-icon3.png" class="btn-icon" />
-							<p class="btn-label">FastAPI</p>
-						</button>
-						
-						<button class="btn btn-tailwind-css hover-dark">
-							<img src="assets/btn/btn-icon4.png" class="btn-icon" />
-							<p class="btn-label">Tailwind CSS</p>
-						</button>
-						
-						<button class="btn-react hover-dark">
-							<div class="btn-react-icon">
-								<img src="assets/btn-react-clip-path.png" class="btn-react-clip-path" />
+
+			<div class="project1-container">
+				<div class="projects-project">
+					<div class="card-left">
+						<div class="project">
+							<h2 class="card-left-subtitle subtitle2">FocusFlow</h2>
+							<a class="card-left-link" href="http://www.my-project-1.com"><u>View my project</u></a>
+
+							<div class="card-left-row">
+								<button class="btn-skill">
+									<img src="/assets/skills/vercel.png" class="btn-icon" />
+									<p class="btn-text">Vercel</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="/assets/skills/react.png" class="btn-icon" />
+									<p class="btn-text">React</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="./assets/skills/html.png" class="btn-icon" />
+									<p class="btn-text">HTML</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="/assets/skills/css.png" class="btn-icon" />
+									<p class="btn-text">CSS</p>
+								</button>
 							</div>
-							
-							<p class="btn-react-label">React</p>
-						</button>
+						</div>
+						
+						<div class="project-description">
+							<p>A Frontend application that has a built-in to-do list, functionial timer and a journaling tab to increase your productivity at your work.</p>
+						</div>
 					</div>
 					
-					<p class="card-left-link card-left-text-description">
-						Description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar tempor dolor, quis vestibulum neque tincidunt eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla leo sapien, maximus vitae eleifend sed, pharetra at odio.
-					</p>
-					<p class="card-left-text-bottom">Date: Jan 1, 2026 - April 1 , 2026</p>
+					<div class="project-img-container">
+						<img src="/assets/projects/focusflow.png" alt="FocusFlow" class="projects-img input2" />
+					</div>
 				</div>
-				
-				<img src="assets/projects-img.png" class="projects-img input2" />
+			</div>
+			
+			<div class="project2-container">
+				<div class="projects-project">
+					<div class="card-left">
+						<div class="project">
+							<h2 class="card-left-subtitle subtitle2">Scholar PH</h2>
+							<a class="card-left-link" href="http://www.my-project-2.com"><u>View my project</u></a>
+							<div class="card-left-row">
+								<button class="btn-skill">
+									<img src="./assets/skills/vercel.png" class="btn-icon" />
+									<p class="btn-text">Vercel</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="./assets/skills/render.png" class="btn-icon" />
+									<p class="btn-text">Render</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="./assets/skills/fastapi.png" class="btn-icon" />
+									<p class="btn-text">FastAPI</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="./assets/skills/tailwind.png" class="btn-icon" />
+									<p class="btn-text">Tailwind</p>
+								</button>
+								
+								<button class="btn-skill">
+									<img src="./assets/skills/react.png" class="btn-icon" />
+									<p class="btn-text">React</p>
+								</button>
+	
+								<button class="btn-skill">
+									<img src="./assets/skills/html.png" class="btn-icon" />
+									<p class="btn-text">HTML</p>
+								</button>
+	
+								<button class="btn-skill">
+									<img src="./assets/skills/postgres.png" class="btn-icon" />
+									<p class="btn-text">PostgreSQL</p>
+								</button>
+							</div>
+						</div>
+						
+						<div class="project-description">
+							<p>A full-stack web application that allows students to easily enroll, and find scholarship opportunities to suite their academic capabilities.</p>
+						</div>
+					</div>
+					
+					<div class="project-img-container">
+						<img src="/assets/projects/scholarph.png" alt="Scholars PH" class="projects-img input2" />
+					</div>
+				</div>
 			</div>
 		</div>
-		
-		<div id="contact-me" class="contact card-blue1">
+
+		<div id="contact-me" class="contact card-blue1 page">
 			<p class="text-a">
 				Looking to collaborate or have some questions? Feel free to contact me
 			</p>
@@ -411,7 +379,7 @@
 	<script src="/javascript/hamburger.js"></script>
 	<script src="/javascript/scroll.js"></script>
 	<script src="/javascript/animation.js"></script>
-	<script src="/javascript/moreInfo.js"></script>
+	<!-- <script src="/javascript/moreInfo.js"></script> -->
 </body>
 
 </html>
