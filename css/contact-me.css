@@ -1,0 +1,52 @@
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-me-header {
+    margin-bottom: 25px;
+}
+
+.contact-me-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.social-img {
+    width: 2rem;
+}
+
+.contact-me-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-and-email {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.name-and-email > input, .message-input {
+    width: 100%;
+    background-color: #04090d;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submit-btn {
+    color: black;
+    background-color: #7cea8c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .name-and-email {
+        flex-direction: column;
+    }
+}

@@ -1,5 +1,4 @@
 body {
-	container: body / inline-size;
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -11,82 +10,8 @@ body {
 	letter-spacing: 0px;
 	background: linear-gradient(180deg, #04090d 0%, #0f1314 60%) top left / auto auto no-repeat;
 	background-attachment: fixed;
-	padding: 18px 50px 482px 50px;
+	padding: 18px 50px;
 	overflow: auto;
-}
-
-.contact {
-	container: contact / inline-size;
-	max-width: 1340px;
-	gap: 9px;
-	--min-font-size: 15; --max-font-size: 16; font-size: var(--interpolate);
-	text-align: left;
-	padding-top: 66px;
-	padding-bottom: 60px;
-}
-
-.contact-text-pangasinan {
-	margin-top: 25px;
-}
-
-.contact-row {
-	margin-left: 7px; margin-top: 23px;
-	display: flex;
-	align-items: flex-start;
-	gap: 17px;
-	align-self: start;
-}
-
-.contact-mdi {
-	width: 38px;
-	flex-shrink: 0;
-}
-
-.contact-mdi-linkedin {
-	margin-top: 2px;
-	width: 34px;
-}
-
-.contact-mdi-github {
-	margin-left: 2px;
-}
-
-.input-group {
-	margin: 31px 5px 0 5px;
-	display: flex;
-	align-items: flex-start;
-	gap: 10px;
-	font-size: 16px;
-}
-
-.input-group-input {
-	width: 100%;
-	min-height: 50px;
-	flex-grow: 1;
-	font-style: normal;
-	letter-spacing: 0px;
-	text-align: left;
-	background-color: #04090d;
-	padding: 13px 14px;
-	border: 1px solid #fff;
-	border-radius: 5px;
-}
-
-.contact-message {
-	margin-top: 21px;
-	background-color: #04090d;
-	padding: 11px 22px 185px 22px;
-	border: 1px solid #fff;
-	border-radius: 5px;
-}
-
-.contact-undefined-bottom {
-	margin-left: 1px; margin-top: 21px;
-	color: #000;
-	text-align: center;
-	background-color: #7cea8c;
-	padding: 14px 24px;
-	border-radius: 5px;
 }
 
 /** breakpoints (margin / paddings) **/

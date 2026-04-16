@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/recent-updates.css" />
 	<link rel="stylesheet" href="css/about-me.css" />
 	<link rel="stylesheet" href="css/projects.css" />
+	<link rel="stylesheet" href="css/contact-me.css" />
 </head>
 
 <body>
@@ -352,34 +353,40 @@
 			</div>
 		</div>
 
-		<div id="contact-me" class="contact card-blue1 page">
-			<p class="text-a">
-				Looking to collaborate or have some questions? Feel free to contact me
-			</p>
-			<p class="text-a contact-text-pangasinan">Pangasinan, PH</p>
-			<p class="text-a">muelvinlopez25@gmail.com</p>
-			
-			<div class="contact-row">
-				<img src="assets/icons/contact-mdi-linkedin.png" class="contact-mdi contact-mdi-linkedin" />
-				<img src="assets/icons/contact-mdi-github.png" class="contact-mdi contact-mdi-github" />
-				<img src="assets/icons/contact-ri-instagram.png" class="contact-mdi contact-ri-instagram" />
-				<img src="assets/icons/contact-ic-baseline.png" class="contact-mdi contact-ic-baseline" />
+		<div id="contact-me" class="card-blue1 page">
+			<div class="contact-me-header">
+				<p>Looking to collaborate or have some questions? Feel free to contact me.</p>
+				<p>Pangasinan PH</p>
+				<p>muelvinlopez25@gmail.com</p>
 			</div>
-			
-			<div class="input-group">
-				<input class="input-group-input input-group-input1" value="Name" />
-				<input class="input-group-input input-group-email" value="Email" />
+			<div class="contact-me-socials">
+				<button>
+					<img src="/assets/contact-me/facebook.png" alt="Facebook" class="social-img">
+				</button>
+				<button>
+					<img src="/assets/contact-me/github.png" alt="GitHub" class="social-img">
+				</button>
+				<button>
+					<img src="/assets/contact-me/linkedin.png" alt="LinkedIn" class="social-img">
+				</button>
+				<button>
+					<img src="/assets/contact-me/instagram.png" alt="Instagram" class="social-img">
+				</button>
 			</div>
-			
-			<div class="contact-message">Message</div>
-			<div class="contact-undefined-bottom">Submit</div>
+			<div class="contact-me-form">
+				<div class="name-and-email">
+					<input type="text" placeholder="name" class="name-input">
+					<input type="text" placeholder="email" class="email-input">
+				</div>
+				<textarea placeholder="message" rows="10" class="message-input"></textarea>
+				<button class="submit-btn">Submit</button>
+			</div>
 		</div>
 	</main>
 
 	<script src="/javascript/hamburger.js"></script>
 	<script src="/javascript/scroll.js"></script>
 	<script src="/javascript/animation.js"></script>
-	<!-- <script src="/javascript/moreInfo.js"></script> -->
 </body>
 
 </html>
