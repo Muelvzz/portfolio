@@ -1,5 +1,4 @@
 /* NAVIGATION BODY */
-
 .nav {
     position: relative;
 	width: 100%;
@@ -8,9 +7,8 @@
     align-items: center;
 	font-size: 16px;
 	background-color: #0f1314;
-	padding: 18px 31px;
+	padding: 10px 40px;
 	border-radius: 5px;
-    flex-direction: row;
 }
 
 .nav-text {
@@ -24,11 +22,16 @@
 }
 
 .nav-img {
-	width: 40px;
+	width: 30px;
 }
 
 .nav-text1 {
 	color: #7cea8c;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav-btn-contact {
@@ -37,11 +40,9 @@
     color: black;
     text-align: center;
 	background-color: #7cea8c;
-	padding: 9px 18px;
-	border-radius: 10px;
+	padding: 5px 20px;
+	border-radius: 5px;
 }
-
-/* RIGHT NAVIGATION */
 
 /* MAIN MENU */
 .main-menu {
@@ -96,13 +97,13 @@
     padding: 16px;
     text-decoration: none;
     display: block;
-    border-bottom: 1px solid #7cea8c;
     text-align: center;
     font-size: 16px;
 }
 
 .dropdown-content a:hover {
-    opacity: 50%;
+    color: black;
+    background-color: #7cea8c;
 }
 
 .show {
