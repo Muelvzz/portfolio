@@ -32,30 +32,8 @@ body {
 	.hero-title {
 		margin-inline: 0;
 	}
-	.hero-text-bottom {
-		margin-inline: 0;
-	}
-	.currently-learning-row {
-		margin-inline: 0;
-	}
-	.card {
-		padding-inline: var(--margin-sm);
-		margin-inline: 0;
-	}
-	.card-text-bottom {
-		margin-inline: 0;
-	}
 	.about-me-text {
 		margin-inline: 0;
-	}
-	.input-group {
-		margin-inline: 0;
-	}
-	.contact-message {
-		padding-inline: var(--margin-sm);
-	}
-	.contact-undefined-bottom {
-		padding-inline: var(--margin-sm);
 	}
 }
 
@@ -65,19 +43,7 @@ body {
 	}
 }
 
-/* container queries (flex rows) */
 
-@container hero (width < 322px) {
-	.row {
-		margin-left: 0;
-		flex-direction: column;
-		align-items: center;
-		gap: 14px;
-	}
-	.row > * {
-		text-align: center;
-	}
-}
 
 @container body (width < 695px) {
 	.nav {
@@ -115,34 +81,4 @@ body {
 	}
 }
 
-@container contact (width < 206px) {
-	.contact-row {
-		margin-left: 0;
-		flex-direction: column;
-		align-items: center;
-		gap: 13px;
-	}
-	.contact > * {
-		margin-left: 0; margin-right: 0;
-	}
-	.contact-row > * {
-		margin-left: unset !important; margin-top: unset !important;
-	}
-}
 
-@container contact (width < 1239px) {
-	.input-group {
-		flex-direction: column;
-		align-items: center;
-		gap: 14px;
-	}
-	.input-group > * {
-		text-align: center;
-	}
-	.input-group > .input-group-input1 {
-		width: 100%;
-	}
-	.input-group > .input-group-email {
-		width: 100%;
-	}
-}

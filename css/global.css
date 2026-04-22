@@ -23,7 +23,7 @@ main {
 	color: #7cea8c;
 }
 
-#recent-updates, #about-me, #projects, #contact-me {
+#about-me, #projects, #contact-me {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -31,25 +31,9 @@ main {
 	padding: 50px;
 }
 
-/* MEDIA QUERIES */
-
 @media (max-width: 480px) {
-	#recent-updates, #about-me, #projects, #contact-me {
+	#about-me, #projects, #contact-me {
 		padding: 20px;
 	}
 }
 
-/* ANIMATION */
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.page {
-  opacity: 0;
-  transition: opacity 1s ease-in;
-}
-.page.is-visible {
-  animation: fadeIn 1s ease-in forwards;
-}
